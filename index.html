@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!--
+    -> Vertical Section - Flexbox - Column - Flex: 1
+        - Div(Absolutely/Relatively Positioned)
+            - Image
+        - Credits(Absolutely Positioned)
+
+    -> Vertical Section - Flexbox - Column - Flex: 1
+        - div
+            - text
+        - form
+            - form stuff
+        - div
+            - button
+            -text
+     -->
+    <div class="container">
+       
+        <div class="left">
+
+            <div><img class="bg" src="halie-west-25xggax4bSA-unsplash.jpg" alt="Green background"></div>
+            <div class="logo"><img src="odin-lined.png" alt="odin-logo"></div>
+            <div class="credits">Photo by <u>Halie West</u> on <u>Unsplash</u></div>
+        </div>
+
+        
+        <div class="right">
+
+            <div class="right-top">
+                <p class="bold">This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams. Sign up <em>now</em> to get started.<br><br>You <em>know</em> you want to.</p> 
+            </div>
+
+            <div class="right-mid">
+                <form action="#">
+                    <p class="bold">Let's do this!</p>
+                    <p>
+                        <label for="first_name">FIRST NAME</label><input type="text" id="first_name">
+                    </p>
+
+                    <p>
+                        <label for="last_name">LAST NAME</label><input type="text" id="last_name">
+                    </p>
+
+                    <p>
+                        <label for="email">EMAIL</label><input type="text" id="email">
+                    </p>
+
+                    <p>
+                        <label for="phone">PHONE NUMBER</label><input type="text" id="phone">
+                    </p>
+
+                    <p>
+                        <label for="password">PASSWORD</label><input type="text" id="password">
+                    </p>
+
+                    <p>
+                        <label for="confirm_password">CONFIRM PASSWORD</label><input type="text" id="confirm_password">
+                    </p>
+                </form>
+            </div>
+
+            <div class="right-bottom">
+                <button>Create Account</button>
+                <p>Already have an account?<a href="#">Log in</a></p>
+            </div>
+        </div>
+        
+     </div>
+
+    </body>
+</html>
+
+<!--  -->
